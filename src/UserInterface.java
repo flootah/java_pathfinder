@@ -234,9 +234,9 @@ public class UserInterface {
 	private void print2dArr(int[][] arr) {
 		for(int i = 0; i < arr.length; i++) {
 			for(int j = 0; j < arr[i].length; j++) {
-				System.out.print("[");
+				System.out.print("");
 				System.out.printf(String.format("%1$4s", arr[i][j]));
-				System.out.print("]");
+				System.out.print("");
 			}
 			System.out.println();
 		}
